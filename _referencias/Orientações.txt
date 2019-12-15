@@ -1,0 +1,26 @@
+Orientações para o exercício
+
+*PARTE 1: SQL
+-Crie um banco de dados chamado "progwebt12_escola"
+
+-Interpretando o Diagrama fornecido, crie no phpMyAdmin uma tabela chamada "alunos" com os seguintes campos:
+
+    id (inteiro pequeno, não nulo, com chave primária e auto incrementado)
+    nome (string com tamanho 30) não nulo
+    primeira (decimal tamanho total 4, 2 dígitos depois da vírgula) não nulo
+    segunda (decimal tamanho total 4, 2 dígitos depois da vírgula) não nulo
+    
+
+*PARTE 2: PHP/SQL
+
+-Crie os scripts de conexão e desconexão para o banco de dados
+-Programe as funções necessárias para realizar o CRUD em sua aplicação
+-Na página inserir.php, programe as rotinas necessárias para fazer INSERT no banco
+-Na página visualizar.php, programe as rotinas necessárias para fazer SELECT no banco
+-Na página atualizar.php, programe as rotinas necessárias para fazer SELECT e UPDATE no banco
+-Na página excluir.php, programe as rotinas necessárias para fazer DELETE no banco
+
+*DESAFIOS:
+Desafio 1: exibir a média destas notas para cada aluno
+Desafio 2: mostrar APROVADO ou REPROVADO conforme o valor da média para cada aluno
+Desafio 3: mostrar em azul quando aprovado, e em vermelho quando reprovado
